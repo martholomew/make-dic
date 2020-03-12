@@ -6,4 +6,4 @@ sort -S 75% copcorp3.txt > copcorp4.txt \
 && \
 uniq -c copcorp4.txt > copcorp5.txt \
 && \
-cat copcorp5.txt | sort -nr | tail -n +2 | awk '{print " word="$2", f="$1}' > copcorp6.txt
+cat copcorp5.txt | sort -nr | tail -n +2 | awk '{print " word="$2",f="$1}' > copcorp6.txt
